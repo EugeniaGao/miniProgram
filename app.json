@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/page/home/index",
+    "pages/page/favor/index",
+    "pages/page/class/index",
+    "pages/page/user/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeMall",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/page/home/index",
+        "iconPath": "pages/image/Home.png",
+        "selectedIconPath": "pages/image/SelectedHome.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/page/class/index",
+        "iconPath": "pages/image/Class.png",
+        "selectedIconPath": "pages/image/SelectedClass.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/page/favor/index",
+        "iconPath": "pages/image/Favor.png",
+        "selectedIconPath": "pages/image/SelectedFavor.png",
+        "text": "收藏"
+      },
+      {
+        "pagePath": "pages/page/user/index",
+        "iconPath": "pages/image/User.png",
+        "selectedIconPath": "pages/image/SelectedUser.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
